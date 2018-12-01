@@ -1,0 +1,551 @@
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+  .questions {
+    height: 900px;
+  }
+}
+
+/*laptops, desktops*/
+@media (min-width: 1069px) and (max-width: 1280px) {
+  .circle {
+    margin-left: 39%;
+  }
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  #card-group {
+    margin-top: 0px;
+  }
+  .aboute-text {
+    text-align: center;
+  }
+  .circle {
+    margin-left: 39%;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form input {
+    margin: 20px;
+  }
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #card-group {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  #container-3 {
+    height: 250px;
+  }
+  .circle {
+    margin-left: 33%;
+  }
+  #carouselExampleIndicators {
+    background: rgba(211, 211, 211, 0.267);
+    height: 650px;
+    padding: 40px;
+  }
+  .carousel-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 502px;
+  }
+  .carousel-item {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form input {
+    margin: 20px;
+  }
+  .footer .container {
+    max-width: 931px;
+  }
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+  #card-group {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .icon-card {
+    margin: auto;
+  }
+  .container-3 {
+    height: 50px;
+  }
+  .aboute-text {
+    text-align: center;
+  }
+  .circle {
+    margin-left: 17%;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form input {
+    margin: 20px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .contactInformation {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: -167px;
+  }
+  .activitytTime {
+    display: none;
+  }
+  .footer-f {
+    position: relative;
+    top: 121px;
+  }
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+  #card-group {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .icon-card {
+    margin: auto;
+  }
+  .aboute-text {
+    text-align: center;
+    line-height: 30px;
+  }
+  .circle {
+    margin-left: -25%;
+  }
+  .questions-item-4 {
+    display: none;
+  }
+  .questions-item-5 {
+    display: none;
+  }
+  .questions-item-6 {
+    display: none;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form input {
+    margin: 20px;
+  }
+  .footer {
+    height: 500px;
+  }
+  .contactInformation {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: -118px;
+  }
+  .activitytTime {
+    display: none;
+  }
+  .footer-f {
+    position: relative;
+    top: 267px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+#container {
+  background: url(../images/photo-1533021116343-9f9e4b9d21e5.jpg);
+  background-size: cover;
+  padding: 75px;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+#container h1, #container h4, #container h3, #container p {
+  color: #ffffff;
+}
+
+#container h1 {
+  font-weight: bold;
+}
+
+#container h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container p {
+  line-height: 39px;
+  padding: 10px;
+  font-size: 22px;
+}
+
+#container .btn-light {
+  background: transparent;
+  color: #ffffff;
+}
+
+.container-2 {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  margin-top: -30px;
+}
+
+.container-2 .card-group {
+  opacity: 2;
+  z-index: 3;
+  padding: 0px 50px 0px 50px;
+  margin-top: -25px;
+}
+
+.container-2 .icon-card {
+  width: 50px;
+  height: 50px;
+  margin-top: 27px;
+}
+
+#container-3 {
+  background: url("../images/Group 56.png");
+  height: 300px;
+}
+
+#container-3 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 90px;
+  margin-left: 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#container-3 .list-success {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#container-3 .img-success {
+  height: 60px;
+}
+
+#container-3 p {
+  color: #ffffff;
+}
+
+.detail {
+  padding: 70px;
+}
+
+.detail .container-4 {
+  padding: 30px;
+}
+
+.detail .aboute-text {
+  display: inline-block;
+  font-size: 21px;
+  overflow: hidden;
+}
+
+.detail b {
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.detail p {
+  overflow: hidden;
+}
+
+.detail .btn-light {
+  padding: 20px;
+  border: 2px solid black;
+  width: 209px;
+  font-size: 22px;
+}
+
+.detail .circle {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 60%;
+  display: inline-block;
+  float: left;
+}
+
+.questions {
+  background: url("../images/Rectangle 26.png");
+  width: 100%;
+  background-size: cover;
+}
+
+.questions .container-5 {
+  padding: 74px;
+}
+
+.questions h1 {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.questions hr {
+  width: 159px;
+  border: 1px solid black;
+}
+
+.questions .questions-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 30px;
+}
+
+.questions .bouncing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.questions .btn-a {
+  display: inline;
+  border: 1px solid black;
+  color: black;
+  padding: 17px;
+}
+
+.questions .questions-item-1 {
+  list-style-image: url("../images/one.png");
+}
+
+.questions .questions-item-2 {
+  list-style-image: url("../images/two.png");
+}
+
+.questions .questions-item-3 {
+  list-style-image: url("../images/three.png");
+}
+
+.questions .questions-item-4 {
+  list-style-image: url("../images/four.png");
+}
+
+.questions .questions-item-5 {
+  list-style-image: url("../images/five.png");
+}
+
+.questions .questions-item-6 {
+  list-style-image: url("../images/six.png");
+}
+
+#carouselExampleIndicators {
+  background: rgba(211, 211, 211, 0.267);
+  height: 650px;
+  padding: 40px;
+}
+
+#carouselExampleIndicators h1 {
+  text-align: center;
+}
+
+#carouselExampleIndicators hr {
+  width: 159px;
+  border: 1px solid black;
+}
+
+#carouselExampleIndicators .carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 502px;
+}
+
+#carouselExampleIndicators .carousel-item {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#carouselExampleIndicators .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  color: black;
+  top: 286px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#carouselExampleIndicators .carousel-control-next-icon, #carouselExampleIndicators .carousel-control-prev-icon {
+  padding: 30px;
+  border: 3px solid black;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container hr {
+  width: 159px;
+  border: 1px solid black;
+}
+
+.container p {
+  text-align: center;
+  text-align: 30px;
+}
+
+.container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container form input {
+  padding: 18px;
+  width: 335px;
+  height: 60px;
+  margin-right: 12px;
+  border: 1px solid #ff000063;
+}
+
+.container form .notHave {
+  border: 1px solid black;
+}
+
+.container form button {
+  width: 335px;
+  background: black;
+  border: black;
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.footer {
+  background: url("../images/Rectangle 30.png");
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer .container {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .contactInformation {
+  display: inline-block;
+  margin-left: 41px;
+  color: white;
+}
+
+.footer .activitytTime {
+  margin-left: 41px;
+  color: white;
+}
+
+.footer .footer-f {
+  display: inline-block;
+  margin-left: 41px;
+  color: white;
+  padding: 10px;
+}
