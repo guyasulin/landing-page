@@ -1,0 +1,29 @@
+
+
+#container-3{
+    background: url('../images/Group\ 56.png');
+    height: 300px;
+
+    .row{
+        display: flex;
+        position: relative;
+        top: 90px;
+        margin-left: 0px;
+        justify-content: space-around;
+    }
+    .list-success{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img-success{
+        height: 60px;
+        
+    }
+    
+
+    p{
+        color: $primary-color;
+    }
+}

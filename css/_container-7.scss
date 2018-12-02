@@ -1,0 +1,40 @@
+
+.container{
+    
+    h1{
+        text-align: center;
+    }
+    hr{
+        width: 159px;
+        border: 1px solid black;
+    }
+    p{
+        text-align: center;
+        text-align: 30px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+
+        input{
+            padding: 18px;
+            width: 335px;
+            height: 60px;
+            margin-right: 12px;
+            border: 1px solid #ff000063;
+        }
+        .notHave{border:1px solid black;}
+        button{
+            width: 335px;
+            background: black;
+            border: black;
+            color: white;
+            font-weight: bold;
+            font-size: 36px;
+            height:60px;
+            margin-right: 12px;
+        }
+        
+    }
+
+}

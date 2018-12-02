@@ -1,0 +1,35 @@
+
+.detail{
+    padding: 70px;
+
+    .container-4{
+        padding: 30px;
+    }
+    .aboute-text{
+        display: inline-block;
+        font-size: 21px;
+        overflow: hidden;
+    }
+
+    b{
+        font-size: 20px;
+        overflow: hidden;
+    }
+    p{
+        overflow: hidden;
+    }
+    .btn-light{
+    padding: 20px;
+    border: 2px solid black;
+    width: 209px;
+    font-size: 22px;
+    }
+    .circle{
+        width:250px;
+        height:250px;
+        border: 1px solid black;
+        border-radius: 60%;
+        display: inline-block;
+        float: left;
+    }
+}

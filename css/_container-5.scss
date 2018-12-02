@@ -1,0 +1,43 @@
+.questions{
+    background: url('../images/Rectangle\ 26.png');
+    width: 100%;
+    background-size: cover;
+
+
+    .container-5{
+        padding: 74px;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 120px;
+    }
+    hr{
+        width: 159px;
+        border: 1px solid black;
+    }
+
+    .questions-list{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        margin: 30px;
+    }
+    .bouncing{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-a{
+        display: inline; 
+        border: 1px solid black;
+        color: black;
+        padding: 17px;
+    }
+    .questions-item-1{list-style-image: url('../images/one.png');}
+    .questions-item-2{list-style-image: url('../images/two.png');}
+    .questions-item-3{list-style-image: url('../images/three.png');}
+    .questions-item-4{list-style-image: url('../images/four.png');}
+    .questions-item-5{list-style-image: url('../images/five.png');}
+    .questions-item-6{list-style-image: url('../images/six.png');}
+}

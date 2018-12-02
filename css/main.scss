@@ -1,5 +1,13 @@
 @import 'color';
 @import 'mediaQuery';
+@import 'container-2';
+@import 'container-3';
+@import 'container-4';
+@import 'container-5';
+@import 'container-6';
+@import 'container-7';
+// @import 'container-8';
+@import 'footer';
 
 body{
   margin: 0;
@@ -7,13 +15,19 @@ body{
   font-family: monospace;
 }
 
+.logo{
+    display: none;
+}
+.phone{
+    display: none;
+}
 #container{
    background:url(../images/photo-1533021116343-9f9e4b9d21e5.jpg);
    background-size: cover;
    padding:75px;
    margin: 0 0 0 0;
     width: 100%;
-
+    margin-top: -17px;
     h1,h4,h3,p{
         color:$primary-color;
     }
@@ -35,241 +49,4 @@ body{
 
 }
 
-.container-2{
-    background: white;
-    display: flex;
-    justify-content: center;
-    background: white;
-    margin-top: -30px;
-    
-    .card{}
- 
-  .card-group{
-    opacity: 2;
-    z-index: 3;
-    padding: 0px 50px 0px 50px;
-    margin-top: -25px;
-   }
 
-   .icon-card{
-       width: 50px;
-       height: 50px;
-    //    margin: 0px 30px 0px 0px;
-       margin-top: 27px;
-   }
-}
-
-
-#container-3{
-    background: url('../images/Group\ 56.png');
-    height: 300px;
-
-    .row{
-        display: flex;
-        position: relative;
-        top: 90px;
-        margin-left: 0px;
-        justify-content: space-around;
-    }
-    .list-success{
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .img-success{
-        height: 60px;
-        
-    }
-    
-
-    p{
-        color: $primary-color;
-    }
-}
-
-.detail{
-    padding: 70px;
-
-    .container-4{
-        padding: 30px;
-    }
-    .aboute-text{
-        display: inline-block;
-        font-size: 21px;
-        overflow: hidden;
-    }
-
-    b{
-        font-size: 20px;
-        overflow: hidden;
-    }
-    p{
-        overflow: hidden;
-    }
-    .btn-light{
-    padding: 20px;
-    border: 2px solid black;
-    width: 209px;
-    font-size: 22px;
-    }
-    .circle{
-        width:250px;
-        height:250px;
-        border: 1px solid black;
-        border-radius: 60%;
-        display: inline-block;
-        float: left;
-    }
-}
-
-.questions{
-    background: url('../images/Rectangle\ 26.png');
-    width: 100%;
-    background-size: cover;
-
-
-    .container-5{
-        padding: 74px;
-    }
-
-    h1{
-        text-align: center;
-        margin-top: 120px;
-    }
-    hr{
-        width: 159px;
-        border: 1px solid black;
-    }
-
-    .questions-list{
-        display: flex;
-        flex-wrap:wrap;
-        justify-content: space-around;
-        margin: 30px;
-    }
-    .bouncing{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .btn-a{
-        display: inline; 
-        border: 1px solid black;
-        color: black;
-        padding: 17px;
-    }
-    .questions-item-1{list-style-image: url('../images/one.png');}
-    .questions-item-2{list-style-image: url('../images/two.png');}
-    .questions-item-3{list-style-image: url('../images/three.png');}
-    .questions-item-4{list-style-image: url('../images/four.png');}
-    .questions-item-5{list-style-image: url('../images/five.png');}
-    .questions-item-6{list-style-image: url('../images/six.png');}
-}
-
-#carouselExampleIndicators{
-    background: rgba(211, 211, 211, 0.267);
-    height: 650px;
-    padding: 40px;
-    h1{
-        text-align: center;
-    }
-    hr{
-        width: 159px;
-        border: 1px solid black;
-    }
-    .carousel-inner{
-        display: flex;
-        justify-content: center;
-            height: 502px;
-    }
-    .carousel-item{
-        width: 250px;
-        height: 250px;
-       border-radius: 50%;
-        border: 1px solid black;
-    }
-
-    .carousel-caption {
-        position: absolute;
-        right: 15%;
-        bottom: 20px;
-        color: black;
-        top: 286px;
-        z-index: 10;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: center;
-    }
-
-    .carousel-control-next-icon, .carousel-control-prev-icon{
-        padding: 30px;
-        border: 3px solid black;
-    }
-}
-
-.container{
-    
-    h1{
-        text-align: center;
-    }
-    hr{
-        width: 159px;
-        border: 1px solid black;
-    }
-    p{
-        text-align: center;
-        text-align: 30px;
-    }
-    form{
-        display: flex;
-        justify-content: center;
-
-        input{
-            padding: 18px;
-            width: 335px;
-            height: 60px;
-            margin-right: 12px;
-            border: 1px solid #ff000063;
-        }
-        .notHave{border:1px solid black;}
-        button{
-            width: 335px;
-            background: black;
-            border: black;
-            color: white;
-            font-weight: bold;
-            font-size: 36px;
-            height:60px;
-            margin-right: 12px;
-        }
-        
-    }
-
-}
-
-.footer{
-    background: url('../images/Rectangle\ 30.png');
-    width: 100%;
-    // height: 250px;
-    margin-top: 50px;
-    .container{
-            padding: 30px;
-            display: flex;
-    }
-    .contactInformation{
-       display: inline-block;
-       margin-left: 41px;
-       color: white;
-    }
-    .activitytTime{
-        margin-left: 41px;
-        color: white;
-     }
-    .footer-f{
-        display: inline-block;
-        margin-left: 41px;;
-        color: white;
-       padding: 10px;
-    }
-}
